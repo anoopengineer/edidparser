@@ -1,10 +1,12 @@
-##EDID parser in Go Language
+EDID parser in Go Language
+---------------------------
 
-This is an EDID (http://en.wikipedia.org/wiki/Extended_display_identification_data) parser written in Go language. 
+This is an EDID (http://en.wikipedia.org/wiki/Extended_display_identification_data) parser library and application written in Go language. 
 
 This contains an executable (currently available for windows - edidparser.exe and can be easily compiled for other platforms as well) and a library that can be imported and used to parse edids. 
 
-###Binary usage:
+Binary usage:
+---------------------------
 
 First dump the edid bytes to a file (space separated bytes - see edid_input.txt file to see a sample input file). And pass the file path as argument to the edidparser binary.
 
