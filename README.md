@@ -10,7 +10,7 @@ Binary usage:
 
 First dump the edid bytes to a file (space separated bytes - see edid_input.txt file to see a sample input file). And pass the file path as argument to the edidparser binary.
 
-eg: edidparser.exe <path_to_file_containing_edid_dump>
+eg: `edidparser.exe <path_to_file_containing_edid_dump>`
 
 	C:\>edidparser.exe edid_input.txt
 	EDID dump
